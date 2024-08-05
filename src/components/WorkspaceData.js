@@ -1,0 +1,42 @@
+export const WorkspaceData = [
+  {
+    id: "1",
+    name: "Workspace Alpha",
+    description: "A collaborative workspace for software development.",
+    members: 10,
+    created_at: "2023-01-15",
+    owner: "John Doe",
+  },
+  {
+    id: "2",
+    name: "Design Hub",
+    description: "Creative space for graphic designers.",
+    members: 8,
+    created_at: "2023-02-10",
+    owner: "Jane Smith",
+  },
+  {
+    id: "3",
+    name: "Marketing Minds",
+    description: "Workspace for marketing professionals.",
+    members: 15,
+    created_at: "2023-03-05",
+    owner: "Michael Johnson",
+  },
+  {
+    id: "4",
+    name: "Startup Central",
+    description: "Hub for startup founders and entrepreneurs.",
+    members: 12,
+    created_at: "2023-04-20",
+    owner: "Emily Davis",
+  },
+  {
+    id: "5",
+    name: "Research Lab",
+    description: "Collaborative space for research projects.",
+    members: 20,
+    created_at: "2023-05-30",
+    owner: "David Lee",
+  },
+];
