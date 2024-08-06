@@ -13,7 +13,7 @@ const Header = () => {
       {location.pathname === targetUrl ? (
         <img src={Logo} width={56} alt="dowell_logo" className="ml-4 rounded" />
       ) : (
-        <ChevronLeftIcon
+        <ChevronLeftIcon 
           className="size-9 md:size-11 text-white cursor-pointer"
           onClick={() => navigate(-1)}
         />
